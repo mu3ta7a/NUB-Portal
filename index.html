@@ -110,12 +110,26 @@
                 oldError.remove();
             }
 
-            // نتأكد من اليوزر والباسورد بتوعك
-            if (user === 'a.gomaa0015@nub.edu.eg' && pass === 'u5082ur') {
-                // لو صح، يحولك على الصفحة الرئيسية
+            var isValid = false;
+
+            // لو كتب اليوزر NUB والباسورد NUB (سواء حروف كبيرة أو صغيرة)
+            if (user.toLowerCase() === 'nub' && pass.toLowerCase() === 'nub') {
+                isValid = true;
+            }
+            // لو كتب اليوزر NUB والباسورد القديم
+            else if (user.toLowerCase() === 'nub' && pass === 'u5082ur') {
+                isValid = true;
+            }
+            // لو كتب الإيميل القديم والباسورد القديم
+            else if (user === 'a.gomaa0015@nub.edu.eg' && pass === 'u5082ur') {
+                isValid = true;
+            }
+
+            // لو أي حاجة من اللي فوق صح، يدخله
+            if (isValid) {
                 window.location.href = 'dashboard.html';
             } else {
-                // لو غلط، نكريت رسالة خطأ أصلية تحت زرار اللوجين
+                // لو غلط، يطلع رسالة الخطأ
                 var errorDiv = document.createElement('div');
                 errorDiv.id = 'error-msg';
                 errorDiv.style.color = '#c62828';
