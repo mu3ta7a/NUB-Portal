@@ -249,7 +249,6 @@
             font-weight: 600;
             transition: .3s;
             box-shadow: 0 8px 20px rgba(9,39,68,.18);
-            cursor: pointer;
         }
 
             .btn-main:hover {
@@ -288,6 +287,19 @@
                 color: #0b527f;
             }
 
+        .btn-staff {
+            border-color: #d4a617;
+            color: #806400;
+        }
+
+            .btn-staff i {
+                color: #c3970d;
+            }
+
+        .btn-parent {
+            background: #f8f9fb;
+        }
+
         /* =========================
            DIVIDER
         ========================= */
@@ -310,113 +322,875 @@
             }
 
         /* =========================
+           FOOTER
+        ========================= */
+
+        .login-footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #edf0f4;
+        }
+
+            .login-footer p {
+                color: #9aa4b1;
+                font-size: 12px;
+                margin-bottom: 12px;
+            }
+
+        .footer-links a {
+            color: #617085;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 13px;
+            transition: .2s;
+        }
+
+            .footer-links a:hover {
+                color: #0b527f;
+            }
+
+        /* =========================
+           ERROR
+        ========================= */
+
+        .error-message {
+            margin: 12px 0 0;
+    padding: 10px 12px;
+    background: #fff1f1;
+    border: 1px solid #ffd4d4;
+    border-radius: 10px;
+    color: #c62828;
+    font-size: 13px;
+    text-align: center;
+        }
+        .error-message span {
+    color: #c62828 !important;
+}
+        /* =========================
            RESPONSIVE
         ========================= */
 
         @media (max-width: 991px) {
+
             .login-page {
                 display: block;
             }
+
             .login-visual {
                 width: 100%;
                 min-height: 300px;
                 background-position: center;
             }
+
             .visual-content {
                 height: 300px;
                 padding: 35px;
             }
+
             .visual-logo {
                 width: 65px;
                 height: 65px;
                 padding: 8px;
                 margin-bottom: 15px;
             }
+
             .visual-content h1 {
                 font-size: 32px;
             }
+
             .visual-content p,
             .university-info {
                 display: none;
             }
+
             .login-area {
                 width: 100%;
                 min-height: auto;
                 padding: 30px 20px;
             }
-            .login-cards {
-                max-width: 520px;
-            }
-            .login-card {
-                max-width: none;
-            }
+
+           @media (max-width: 991px) {
+
+    .login-cards {
+        max-width: 520px;
+    }
+
+    .login-card {
+        max-width: none;
+    }
+}
         }
+
+        @media (max-width: 480px) {
+
+            
+            .login-card {
+    padding: 20px;
+    border-radius: 18px;
+}
+
+            .visual-content {
+                padding: 25px;
+            }
+
+                .visual-content h1 {
+                    font-size: 27px;
+                }
+        }
+        /* =========================================
+   STAFF SECTION
+========================================= */
+
+        .staff-section {
+            margin-top: 5px;
+        }
+
+
+        /* =========================================
+   STAFF OPTION
+========================================= */
+
+        /* =========================================
+   STAFF OPTIONS
+========================================= */
+
+        
+        /* =========================
+   STAFF MICROSOFT LOGIN
+========================= */
+
+.staff-option {
+    width: 100%;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 20px;
+    margin-bottom: 8px;
+
+    background: linear-gradient(
+        135deg,
+        #f0f7fc,
+        #e6f1f8
+    );
+
+    border: 1px solid #c9ddea;
+    border-radius: 12px;
+
+    color: #0b527f;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none !important;
+
+    cursor: pointer;
+
+    transition: all .25s ease;
+
+    box-shadow: 0 3px 8px rgba(11, 82, 127, .07);
+}
+
+.staff-option:hover {
+    background: linear-gradient(
+        135deg,
+        #e6f1f8,
+        #dcecf6
+    );
+
+    border-color: #a9c9dc;
+
+    color: #092744;
+
+    transform: translateY(-1px);
+
+    box-shadow: 0 7px 16px rgba(11, 82, 127, .12);
+}
+        /* =========================================
+   MICROSOFT ICON
+========================================= */
+
+        .staff-icon {
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+
+
+
+        /* Microsoft Logo */
+
+        .microsoft-icon {
+            width: 19px;
+            height: 19px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 2px;
+        }
+
+            .microsoft-icon span:nth-child(1) {
+                background: #f35325;
+            }
+
+            .microsoft-icon span:nth-child(2) {
+                background: #81bc06;
+            }
+
+            .microsoft-icon span:nth-child(3) {
+                background: #05a6f0;
+            }
+
+            .microsoft-icon span:nth-child(4) {
+                background: #ffba08;
+            }
+
+
+        /* =========================================
+   MICROSOFT TEXT
+========================================= */
+
+
+
+        .staff-text strong {
+            display: block;
+            color: #23364b;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+
+        /* =========================================
+   NUB SSO BUTTON
+========================================= */
+
+       /* =========================
+   NUB SSO LOGIN
+========================= */
+
+
+
+.staff-sso-button {
+    width: 100%;
+    height: 48px;
+
+    border: 1px solid #b9dcca;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #eaf7f1,
+        #dff2e9
+    );
+
+    color: #246b4d !important;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: all .25s ease;
+
+    box-shadow:
+        0 5px 14px rgba(36, 107, 77, .10);
+}
+
+.staff-sso-button:hover {
+    background: linear-gradient(
+        135deg,
+        #dff2e9,
+        #cde9da
+    );
+
+    border-color: #9fcdb5;
+
+    color: #1d5c40 !important;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 8px 20px rgba(36, 107, 77, .16);
+}
+
+.staff-sso-button:active {
+    transform: translateY(0);
+
+    box-shadow:
+        0 4px 10px rgba(36, 107, 77, .10);
+}
+
+
+        /* =========================================
+   MICROSOFT ICON
+========================================= */
+
+        .microsoft-icon {
+            width: 19px;
+            height: 19px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 2px;
+        }
+
+            .microsoft-icon span:nth-child(1) {
+                background: #f35325;
+            }
+
+            .microsoft-icon span:nth-child(2) {
+                background: #81bc06;
+            }
+
+            .microsoft-icon span:nth-child(3) {
+                background: #05a6f0;
+            }
+
+            .microsoft-icon span:nth-child(4) {
+                background: #ffba08;
+            }
+
+
+        /* =========================================
+   STAFF TEXT
+========================================= */
+
+        .staff-text {
+            flex: 1;
+            text-align: center;
+        }
+
+            .staff-text strong {
+                display: block;
+                color: #23364b;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 3px;
+            }
+
+            .staff-text small {
+                display: block;
+                color: #929daa;
+                font-size: 10px;
+            }
+
+
+        /* =========================================
+   ARROW
+========================================= */
+
+        .staff-arrow {
+            color: #a7b0bb;
+            font-size: 13px;
+            margin-left: 8px;
+        }
+
+
+        /* =========================================
+   STAFF SSO BUTTON
+========================================= */
+
+     
+
+           
+
+        /* =========================================
+   COMPACT LOGIN - FIT FULL SCREEN
+========================================= */
+
+        .login-area {
+            padding: 20px 35px;
+        }
+
+        .login-card {
+            padding: 25px 35px;
+            max-width: 480px;
+        }
+
+        .card-header {
+            margin-bottom: 18px;
+        }
+
+        .card-logo {
+            width: 100px;
+            height: 58px;
+            margin-bottom: 8px;
+        }
+
+        .card-header h2 {
+            font-size: 25px;
+        }
+
+        .card-header p {
+            margin-top: 4px;
+            font-size: 13px;
+        }
+
+
+        /* Inputs */
+
+        .input-group-custom {
+            margin-bottom: 12px;
+        }
+
+            .input-group-custom label {
+                margin-bottom: 5px;
+            }
+
+            .input-group-custom .form-control {
+                height: 45px;
+            }
+
+
+        /* Main Login Button */
+
+        .btn-main {
+            height: 45px;
+        }
+
+
+        /* Divider */
+
+        .divider {
+            margin: 14px 0;
+        }
+
+
+        /* Student / Parent buttons */
+
+        .btn-sso {
+            height: 45px;
+            margin-top: 8px;
+        }
+
+
+        /* Staff */
+
+
+
+
+
+        .staff-sso-button {
+            min-height: 52px;
+        }
+
+
+        /* Footer */
+
+        .login-footer {
+            margin-top: 15px;
+            padding-top: 12px;
+        }
+
+            .login-footer p {
+                margin-bottom: 7px;
+            }
+
+
+        /* =========================================
+   STAFF OPTIONS
+========================================= */
+
+      
+
+
+        /* =========================================
+   MICROSOFT ICON
+========================================= */
+
+        .staff-icon {
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+        .microsoft-box {
+            background: transparent;
+        }
+
+
+        /* Microsoft Logo */
+
+        .microsoft-icon {
+            width: 19px;
+            height: 19px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 2px;
+        }
+
+            .microsoft-icon span:nth-child(1) {
+                background: #f35325;
+            }
+
+            .microsoft-icon span:nth-child(2) {
+                background: #81bc06;
+            }
+
+            .microsoft-icon span:nth-child(3) {
+                background: #05a6f0;
+            }
+
+            .microsoft-icon span:nth-child(4) {
+                background: #ffba08;
+            }
+
+
+        /* =========================================
+   MICROSOFT TEXT
+========================================= */
+
+        .staff-text {
+            flex: 0 0 auto;
+            text-align: left;
+        }
+
+            .staff-text strong {
+                display: block;
+                color: #23364b;
+                font-size: 14px;
+                font-weight: 600;
+                margin: 0;
+            }
+
+
+        /* =========================================
+   NUB SSO BUTTON
+========================================= */
+        /* =========================================
+   SMALL SCREEN HEIGHT
+   Prevent vertical scrolling
+========================================= */
+
+@media (max-height: 800px) and (min-width: 992px) {
+
+    .login-visual,
+    .visual-content,
+    .login-area {
+        min-height: 100vh;
+        height: 100vh;
+    }
+
+    .visual-content {
+        padding: 35px 50px;
+    }
+
+    .visual-logo {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 20px;
+    }
+
+    .visual-content h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .visual-line {
+        margin: 15px 0;
+    }
+
+    .visual-content p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .university-info {
+        margin-top: 25px;
+    }
+
+    .login-area {
+        padding: 15px 30px;
+    }
+
+    .login-card {
+        padding: 18px 28px;
+        border-radius: 20px;
+    }
+
+    .card-logo {
+        width: 75px;
+        height: 45px;
+        margin-bottom: 3px;
+    }
+
+    .card-header {
+        margin-bottom: 10px;
+    }
+
+    .card-header h2 {
+        font-size: 21px;
+    }
+
+    .card-header p {
+        font-size: 12px;
+    }
+
+    .input-group-custom {
+        margin-bottom: 8px;
+    }
+
+    .input-group-custom label {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .input-group-custom .form-control {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .btn-main {
+        height: 40px;
+        margin-top: 2px;
+    }
+
+    .back-link {
+        margin-top: 7px;
+    }
+}
+     
     </style>
 
 </head>
 
 <body>
 
-    <form onsubmit="event.preventDefault(); window.location.href='dashboard.html';" id="form1" autocomplete="off">
+    <form method="post" action="./login.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1" autocomplete="off">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="EU3UHMIDjziDc4FW6shT9zQP0ZgSpFLJDn3GBuRlLEZr7ZfUv9cIO5qxFXQSBvmY8W8JEUJ2uH5f2OMaO0ityxIjDCn9ADv4qAT1ay24hesFecpGsEWgoIuBYPQGHYqX">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNKsPGUtBY2xPI-qutvcDcgaackBQqJXh2a8I_S9bMAG8psDFQNCqeKBhFCsKSQYtg2&amp;t=639192081026372022" type="text/javascript"></script>
+
+
+<script src="/Scripts/jquery-1.7.1.js" type="text/javascript"></script>
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakPiZGz7Y8BhE8P-PfUbrP9mxzisOaVVkGZUjo8QjXEbj2yAai9LarKlLURCAMTm64R75SzINrg9TLfxw5ljG3JQ1&amp;t=639192081026372022" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="w4aiPyUH2MIKAtj8ViZHVwvOtx+6O+gn2+w1TIsl8wo+iEL5VJWRvz/ANXtc6aqaK+3dgUh74JSKEnwRyXKOUc2Nh2M+4Vw4yiTMqK3AvGwzMWxTiEY6ypuvreb3x93faAQ3THEM9EyozJQwAgIRvm2tuol1X2z3PE15z+1wW+Qu0ac3bgA1lmXmzuCS6o35">
+</div>
 
         <div class="login-page">
 
-            <!-- LEFT VISUAL SECTION -->
+       <!-- ========================================= LEFT VISUAL SECTION ========================================== -->
+
             <section class="login-visual">
+
                 <div class="visual-content">
+
                     <img src="Themes/Login/img/logo.png" class="visual-logo" alt="NUB Logo">
-                    <h1>Welcome to <span>NUB</span></h1>
+
+                    <h1>Welcome to
+                    <span>NUB</span>
+                    </h1>
+
                     <div class="visual-line"></div>
-                    <p>NUB is an Egyptian private university founded by the presidential decree 253/2006...</p>
+
+                    <p>
+                        NUB is an Egyptian private university founded by the presidential decree 253/2006 according to the law number 101/1992 and its executive regulations number 219/2002.
+                    </p>
+
                     <div class="university-info">
-                        <div class="info-item"><i class="fa fa-shield"></i> Secure Access</div>
-                        <div class="info-item"><i class="fa fa-graduation-cap"></i> University Services</div>
-                        <div class="info-item"><i class="fa fa-cloud"></i> Digital Portal</div>
+
+                        <div class="info-item">
+                            <i class="fa fa-shield"></i>
+                            Secure Access
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-graduation-cap"></i>
+                            University Services
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-cloud"></i>
+                            Digital Portal
+                        </div>
+
                     </div>
+
                 </div>
+
             </section>
 
-            <!-- RIGHT LOGIN SECTION -->
+
+            <!-- =========================================
+             RIGHT LOGIN SECTION
+        ========================================== -->
+
             <section class="login-area">
+
              <div class="login-cards">
 
-                <!-- CARD 1: LOGIN -->
-                <div class="login-card">
-                    <div class="card-header">
-                        <img src="Themes/Login/img/logo.png" class="card-logo" alt="NUB Logo">
-                        <h2>NUB Portal</h2>
-                        <p>Sign in to access your account</p>
-                    </div>
+    <!-- ================= CARD 1 ================= -->
+    <div class="login-card">
 
-                    <!-- USERNAME -->
-                    <div class="input-group-custom">
-                        <label>Username</label>
-                        <i class="fa fa-user"></i>
-                        <input name="txtUserName" type="text" id="txtUserName" class="form-control" placeholder="Enter your username" autocomplete="off">
-                    </div>
+        <div class="card-header">
 
-                    <!-- PASSWORD -->
-                    <div class="input-group-custom">
-                        <label>Password</label>
-                        <i class="fa fa-lock"></i>
-                        <input name="txtPassword" id="txtPassword" class="form-control" placeholder="Enter your password" type="password" autocomplete="off">
-                    </div>
+            <img src="Themes/Login/img/logo.png" class="card-logo" alt="NUB Logo">
 
-                    <!-- LOGIN NOW BUTTON -->
-                    <button type="button" class="btn-main" onclick="window.location.href='dashboard.html';">Login Now</button>
+            <h2>NUB Portal</h2>
+
+            <p>Sign in to access your account</p>
+
+        </div>
+
+        <!-- USERNAME -->
+        <div class="input-group-custom">
+
+            <label>Username</label>
+
+            <i class="fa fa-user"></i>
+
+            <input name="txtUserName" type="text" id="txtUserName" class="form-control" placeholder="Enter your username" autocomplete="off">
+
+            <span data-val-controltovalidate="txtUserName" data-val-errormessage="Please Enter UserName" data-val-display="Dynamic" id="RequiredFieldValidator1" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:#C62828;display:none;">Please Enter UserName</span>
+
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="input-group-custom">
+
+            <label>Password</label>
+
+            <i class="fa fa-lock"></i>
+
+            <input name="txtPassword" id="txtPassword" class="form-control" placeholder="Enter your password" type="password" autocomplete="off">
+
+            <span data-val-controltovalidate="txtPassword" data-val-errormessage="Please Enter Password" data-val-display="Dynamic" id="RequiredFieldValidator2" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color:#C62828;display:none;">Please Enter Password</span>
+
+        </div>
+
+        <!-- LOGIN NOW -->
+        <input type="submit" name="btnLogin" value="Login Now" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnLogin" class="btn-main">
+
+         <!-- ERROR -->
+   
+            
+        
+    </div>
+
+
+    <!-- ================= CARD 2 ================= -->
+    <div class="login-card">
+
+        <div class="divider">
+            STUDENT / PARENT LOGIN
+        </div>
+
+        <!-- STUDENT SSO -->
+        <a class="btn-sso btn-parent" href="SSOLogin/">
+
+            <i class="fa fa-user"></i>
+            Student Portal
+
+        </a>
+
+        <!-- PARENT -->
+        <a class="btn-sso btn-parent" href="Parent/login.aspx">
+
+            <i class="fa fa-users"></i>
+            Parent Portal
+
+        </a>
+
+    </div>
+
+
+    <!-- ================= CARD 3 - STAFF ================= -->
+    <div class="login-card staff-card">
+
+        <div class="divider">
+            STAFF / ADMIN LOGIN
+        </div>
+
+        <div class="staff-section">
+
+            <!-- STAFF MICROSOFT -->
+            <a class="staff-option staff-sso-button" href="SSOLogin/">
+
+                <div class="staff-icon microsoft-box">
+
+                    <span class="microsoft-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+
                 </div>
 
-                <!-- CARD 2: STUDENT / PARENT -->
-                <div class="login-card">
-                    <div class="divider">STUDENT / PARENT LOGIN</div>
-                    <a class="btn-sso" href="dashboard.html"><i class="fa fa-user"></i> Student Portal</a>
+                <div class="staff-text">
+                    <strong>Sign in with Microsoft</strong>
                 </div>
 
-             </div>
+            </a>
+
+
+            <!-- STAFF NUB SSO -->
+            <input type="submit" name="btn_NubSso" value="NUB SSO Login" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btn_NubSso&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btn_NubSso" class="staff-option staff-sso-button">
+
+        </div>
+
+       
+
+    </div>
+
+</div>
+
             </section>
 
         </div>
 
     </form>
+
+
+
 
 </body></html>
