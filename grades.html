@@ -1,189 +1,2100 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" class="global xlarge large medium small xsmall" style="overflow-x: hidden;">
-<head id="Head1">
-    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1">
-    <title>NUB PORTAL - Student Grades</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <script src="https://portal.nub.edu.eg/Theames_Stu/js/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style-xlarge.css">
-    <link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Themes/css/Processing.css" media="screen">
-    
+<html xmlns="http://www.w3.org/1999/xhtml" class="global xlarge large medium small xsmall"><head id="Head1"><meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1"><style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}</style><meta name="viewport" content="initial-scale=1"><title>
+	NUB PORTAL
+</title><meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script src="https://portal.nub.edu.eg/Theames_Stu/js/jquery.min.js"></script>
+        <script src="https://portal.nub.edu.eg/Theames_Stu/js/html5-qrcode.min.js"></script>
+		<script src="https://portal.nub.edu.eg/Theames_Stu/js/jquery.scrollzer.min.js"></script>
+		<script src="https://portal.nub.edu.eg/Theames_Stu/js/jquery.scrolly.min.js"></script>
+		<style type="text/css">.row{border-bottom:solid 1px transparent}.row>*{float:left}.row:after,.row:before{content:"";display:block;clear:both;height:0}.row.uniform>*>:first-child{margin-top:0}.row.uniform>*>:last-child{margin-bottom:0}.\31 2u,.\31 2u\24{width:100%;clear:none;margin-left:0}.\31 1u,.\31 1u\24{width:91.6666666667%;clear:none;margin-left:0}.\31 0u,.\31 0u\24{width:83.3333333333%;clear:none;margin-left:0}.\39 u,.\39 u\24{width:75%;clear:none;margin-left:0}.\38 u,.\38 u\24{width:66.6666666667%;clear:none;margin-left:0}.\37 u,.\37 u\24{width:58.3333333333%;clear:none;margin-left:0}.\36 u,.\36 u\24{width:50%;clear:none;margin-left:0}.\35 u,.\35 u\24{width:41.6666666667%;clear:none;margin-left:0}.\34 u,.\34 u\24{width:33.3333333333%;clear:none;margin-left:0}.\33 u,.\33 u\24{width:25%;clear:none;margin-left:0}.\32 u,.\32 u\24{width:16.6666666667%;clear:none;margin-left:0}.\31 u,.\31 u\24{width:8.3333333333%;clear:none;margin-left:0}.\31 2u\24+*,.\31 1u\24+*,.\31 0u\24+*,.\39 u\24+*,.\38 u\24+*,.\37 u\24+*,.\36 u\24+*,.\35 u\24+*,.\34 u\24+*,.\33 u\24+*,.\32 u\24+*,.\31 u\24+*{clear:left;}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}</style><style type="text/css">.container{margin-left:auto;margin-right:auto;width:90%!important;max-width:none!important;min-width:0!important}</style><style type="text/css">.row>*{padding:0px 0 0 1.25em}.row{margin:0px 0 -1px -1.25em}.row.uniform>*{padding:1.25em 0 0 1.25em}.row.uniform{margin:-1.25em 0 -1px -1.25em}.row.\32 00\25>*{padding:0px 0 0 2.5em}.row.\32 00\25{margin:0px 0 -1px -2.5em}.row.uniform.\32 00\25>*{padding:2.5em 0 0 2.5em}.row.uniform.\32 00\25{margin:-2.5em 0 -1px -2.5em}.row.\31 50\25>*{padding:0px 0 0 1.875em}.row.\31 50\25{margin:0px 0 -1px -1.875em}.row.uniform.\31 50\25>*{padding:1.875em 0 0 1.875em}.row.uniform.\31 50\25{margin:-1.875em 0 -1px -1.875em}.row.\35 0\25>*{padding:0px 0 0 0.625em}.row.\35 0\25{margin:0px 0 -1px -0.625em}.row.uniform.\35 0\25>*{padding:0.625em 0 0 0.625em}.row.uniform.\35 0\25{margin:-0.625em 0 -1px -0.625em}.row.\32 5\25>*{padding:0px 0 0 0.3125em}.row.\32 5\25{margin:0px 0 -1px -0.3125em}.row.uniform.\32 5\25>*{padding:0.3125em 0 0 0.3125em}.row.uniform.\32 5\25{margin:-0.3125em 0 -1px -0.3125em}.row.\30 \25>*{padding:0}.row.\30 \25{margin:0 0 -1px 0}</style><link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style.css"><link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style-xlarge.css"><link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style-large.css"><link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style-medium.css"><link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style-small.css"><link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Theames_Stu/css/style-xsmall.css"><script src="https://portal.nub.edu.eg/Theames_Stu/js/skel.min.js"></script>
+		<script src="https://portal.nub.edu.eg/Theames_Stu/js/skel-layers.min.js"></script>
+		<script src="https://portal.nub.edu.eg/Theames_Stu/js/init.js"></script>
+        <link href="https://portal.nub.edu.eg/Themes/jqueryconfirm/jquery.confirm/jquery.confirm.css" rel="stylesheet">
+    <script src="https://portal.nub.edu.eg/Themes/jqueryconfirm/jquery.confirm/jquery.confirm.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://portal.nub.edu.eg/Themes/css/Processing.css" media="screen">
     <style>
-        body { font-size: 0.9em; font-family: 'Segoe UI', Verdana, sans-serif, Arial; color: black; background-color:#f8f9fa; }
-        .headgroupstyle { background-color:#CCCCCC; }
+        body { font-size: 0.9em; font-family: 'Segoe UI', 'Segoe UI Symbol', Verdana, sans-serif, Arial; color: black; background: #fefefe; margin: 10px; padding: 0px; }
+        ul.icons li { display: inline-block; padding: 9px; text-align: center; }
+        .headgroupstyle { background-color:#99CCFF; }
         table.grid { border-collapse: collapse; border:1px solid #2f1e6f; padding:0; width:100%; background-color:White; }
-        table.grid td { padding: 5px; border: 1px solid #CCCCCC; text-align: center; }
-        table.grid th { padding: 5px; text-align: center; line-height: 25px; background-color: #000056; color: white; font-weight: bold; }
+        table.grid > tbody > tr { padding:0; }
+        table.grid td { padding: 2px; border: 1px solid #CCCCCC; }
+        table.grid th { padding: 2px 2px; text-align: center; line-height: 42px; background-color: #000056; }
         table.grid > tr:nth-child(odd) td { background-color: #fbfbfb; }
         table.grid > tr:nth-child(even) td { background-color: #e8eef4; }
-        #titleBar { position: fixed; top: 0; left: 0; width: 100%; height: 44px; background: #222; color: #fff; z-index: 10002; display: flex; align-items: center; }
-        #titleBar .title { padding-left: 15px; font-size: 13px; font-weight: bold; }
-        .back-btn { margin-left: auto; margin-right: 15px; color: white; text-decoration: none; background: #113f24; padding: 5px 15px; border-radius: 5px; font-size: 12px; }
+        .headgroupstyle { background-color:#CCCCCC; }
     </style>
 </head>
 
-<body style="padding-top: 44px;">
-    <!-- الشريط العلوي للرجوع للرئيسية -->
-    <div id="titleBar">
-        <span class="title">Abdalla Gomaa Mohamed Moursi Badawi</span>
-        <a href="dashboard.html" class="back-btn">Back to Dashboard</a>
-    </div>
+<body><div id="skel-layers-wrapper" style="position: relative; left: 0px; right: 0px; top: 0px; backface-visibility: hidden; transition: transform 0.5s, opacity 0.5s;">
+    <form method="post" action="javascript:void(0);" id="form1" class="form-horizontal">
 
-    <div id="wrapper" style="padding-top: 20px;">
-        <div id="main">
-            <section id="one">
-                <div style="margin-top: -30px;">
-                    <div style="float: left; margin-right: 15px; margin-left:13px;">
-                        <img src="https://portal.nub.edu.eg/Theames_Stu/images/logo2.png" width="117" height="107">
-                    </div>
-                    <div style="float: left; text-align: center; width: 70%;">
-                        <h3 style="color:#333; font-weight:bold; margin-bottom:5px;">NUB Portal</h3>                                
-                        <p style="font-size: 20pt; margin-top: 0; color:#555;">Student Grades</p>
-                    </div>
-                </div>
-            </section>
-            
-            <div style="clear: both; margin-bottom:20px;"></div>
-            
-            <div style="margin: 0 10px 10px; min-height: 650px;">
-                <div class="panel-body" dir="ltr">
-                    <div style="width: 100%;text-align: center;border: 1px solid black; background:#fff; padding:10px; margin-bottom:20px;">
-                        <!-- تعديل التوتال والـ GPA هنا -->
-                        <table style="width: 100%; margin-bottom: 0px;" dir="ltr">
-                            <tbody>
-                                <tr>
-                                    <td style="text-align:left; padding:5px;"><span style="color:#666666;font-size:14px;font-weight:bold;">GPA:</span> <span style="font-size:14px; font-weight:bold; color:#092744;">3.05</span></td>
-                                    <td style="text-align:left; padding:5px;"><span style="color:#666666;font-size:14px;font-weight:bold;">Student Name:</span> <span style="font-size:14px; font-weight:bold;">Abdalla Gomaa Mohamed Moursi Badawi</span></td>
-                                    <td style="text-align:left; padding:5px;"><span style="color:#666666;font-size:14px;font-weight:bold;">Attempted Hours:</span> <span style="font-size:14px; font-weight:bold;">82</span></td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align:left; padding:5px;"><span style="color:#666666;font-size:14px;font-weight:bold;">Earned Hours:</span> <span style="font-size:14px; font-weight:bold;">78</span></td>
-                                    <td style="text-align:left; padding:5px;"><span style="color:#666666;font-size:14px;font-weight:bold;">Total Actual Hours:</span> <span style="font-size:14px; font-weight:bold;">46</span></td>
-                                    <td style="text-align:left; padding:5px;"><span style="color:#666666;font-size:14px;font-weight:bold;">Total Points:</span> <span style="font-size:14px; font-weight:bold;">237.9</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                                            
-                    <table class="grid">
-                        <tbody>
-                            <tr>
-                                <th>S.No</th><th>Subject Code</th><th>Subject Name</th><th>Credit Hours</th><th>Final</th><th>Class Part.</th><th>Oral</th><th>Lab</th><th>MidTerm</th><th>Clinical</th><th>Total</th><th>Points</th><th>Grade</th>
-                            </tr>
+<script type="text/javascript">
+ $(document).ready(function () {
+ApplyGrouping_cpl_body_grdRawData();
+ $('#cpl_body_grdRawData tr[group]').fadeOut('fast');
+ $('#cpl_body_grdRawData tr[id^=GroupHeader]').attr('expanded', 'false');
+ });
+ function ApplyGrouping_cpl_body_grdRawData() {
+ var PrevText = '###', CurrText = '';
+ $('#cpl_body_grdRawData tr[group]').each(function (index) {
+ CurrText = $(this).attr('group');
+ if (PrevText != CurrText) {
+ if (PrevText != '###' && $('#cpl_body_grdRawData_GroupFooter_' + PrevText).length != 0)
+ $(this).before('<tr id="GroupFooter' + PrevText + '" expanded="true"><td colspan="13">' + $('#cpl_body_grdRawData_GroupFooter_' + PrevText).html() + '</td></tr>');
+ $(this).before('<tr id="GroupHeader' + CurrText + '" expanded="true" onclick="javascript:return Clicked_cpl_body_grdRawData(\'' + CurrText + '\');" style="cursor:pointer;"><td colspan="13">' + $('#cpl_body_grdRawData_GroupHeader_' + CurrText).html() + '</td></tr>');
+}
+ if (index == 45 && $('#cpl_body_grdRawData_GroupFooter_' + CurrText).length != 0)
+ $(this).after('<tr id="GroupFooter' + CurrText + '" expanded="true"><td colspan="13">' + $('#cpl_body_grdRawData_GroupFooter_' + CurrText).html() + '</td></tr>');
+ PrevText = CurrText;
+ });
+}
+ 
+ function Clicked_cpl_body_grdRawData(GroupId) { if ($('#cpl_body_grdRawData tr#GroupHeader' + GroupId).attr('expanded') == 'true') {
+ $('#cpl_body_grdRawData tr[group=' + GroupId + ']').fadeOut('fast');
+ $('#cpl_body_grdRawData tr#GroupHeader' + GroupId).attr('expanded', 'false');
+ }
+ else {
+ $('#cpl_body_grdRawData tr[group=' + GroupId + ']').fadeIn('fast');
+ $('#cpl_body_grdRawData tr#GroupHeader' + GroupId).attr('expanded', 'true');
+ }
+ }
+</script>
 
-                            <!-- ================= SUMMER 2025-2026 ================= -->
-                            <tr>
-                                <td colspan="13" style="background-color:#CCCCCC; font-weight:bold; text-align:left; padding:8px;">Summer-2025-2026</td>
-                            </tr>
-                            <tr>
-                                <td>1.</td><td>HMD201</td><td>Human Dentition 2</td><td>3</td>
-                                <td>25</td><td>15</td><td>6</td><td>20</td><td>10</td><td style="background-color:#848484;"></td>
-                                <td>76</td><td>8.1</td><td style="font-weight:bold; color:green;">B-</td>
-                            </tr>
-                            <tr>
-                                <td>2.</td><td>ANT102D</td><td>Anatomy - D</td><td>2</td>
-                                <td>26</td><td>10</td><td>5</td><td>20</td><td>12</td><td style="background-color:#848484;"></td>
-                                <td>73</td><td>4.6</td><td style="font-weight:bold; color:green;">C+</td>
-                            </tr>
-                            <tr>
-                                <td>3.</td><td>CHO102D</td><td>Organic Chemistry - D</td><td>2</td>
-                                <td>20</td><td>12.5</td><td>7.5</td><td>25</td><td>11</td><td style="background-color:#848484;"></td>
-                                <td>76</td><td>5.4</td><td style="font-weight:bold; color:green;">B-</td>
-                            </tr>
-                            <tr>
-                                <td colspan="13" style="background-color:#999999; text-align:center; padding:5px; color:#fff;">
-                                    <span style="color:#990033;font-weight:bold;">Attempted Hours</span> 7 &nbsp; - &nbsp; 
-                                    <span style="color:#990033;font-weight:bold;">Earned Hours</span> 7 &nbsp; - &nbsp; 
-                                    <span style="color:#990033;font-weight:bold;">GPA</span> 2.59
-                                </td>
-                            </tr>
+        <div id="upnl_page0">
+        <div id="wrapper">
 
-                            <!-- ================= SPRING 2025-2026 ================= -->
-                            <tr>
-                                <td colspan="13" style="background-color:#CCCCCC; font-weight:bold; text-align:left; padding:8px;">Spring-2025-2026</td>
-                            </tr>
-                            <tr>
-                                <td>4.</td><td>CS-121-P2</td><td>Aptech Computer Skills Level 1 - P2</td><td>0</td>
-                                <td>47</td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td>47</td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td>
-                                <td>94</td><td>1</td><td style="font-weight:bold;">P</td>
-                            </tr>
-                            <tr>
-                                <td>5.</td><td>ENG112A</td><td>ENG 112 A</td><td>1</td>
-                                <td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td>
-                                <td style="background-color:#848484;"></td><td></td><td style="font-weight:bold;">P</td>
-                            </tr>
-                            <tr>
-                                <td>6.</td><td>HMD101</td><td>Human Dentition 1</td><td>3</td>
-                                <td>29</td><td>13</td><td>8</td><td>18</td><td>11</td><td style="background-color:#848484;"></td>
-                                <td>79</td><td>9</td><td style="font-weight:bold; color:green;">B</td>
-                            </tr>
-                            <tr>
-                                <td>7.</td><td>ANT102D</td><td>Anatomy - D</td><td>2</td>
-                                <td>20</td><td>11</td><td>7</td><td>20</td><td>10</td><td style="background-color:#848484;"></td>
-                                <td>68</td><td>3.4</td><td style="font-weight:bold; color:green;">C-</td>
-                            </tr>
-                            <tr>
-                                <td>8.</td><td>COM301D</td><td>Community Medicine</td><td>2</td>
-                                <td>35</td><td>23</td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td>24</td><td style="background-color:#848484;"></td>
-                                <td>82</td><td>6.6</td><td style="font-weight:bold; color:green;">B+</td>
-                            </tr>
-                            <tr>
-                                <td>9.</td><td>PTH201D</td><td>Pathology 1 - D</td><td>3</td>
-                                <td>29</td><td>14</td><td>9</td><td>18</td><td>10</td><td style="background-color:#848484;"></td>
-                                <td>80</td><td>9.0</td><td style="font-weight:bold; color:green;">B</td>
-                            </tr>
-                            <tr>
-                                <td>10.</td><td>CHO102D</td><td>Organic Chemistry - D</td><td>2</td>
-                                <td>20</td><td>12</td><td>8</td><td>20</td><td>10</td><td style="background-color:#848484;"></td>
-                                <td>70</td><td>4.0</td><td style="font-weight:bold; color:green;">C</td>
-                            </tr>
-                            <tr>
-                                <td colspan="13" style="background-color:#999999; text-align:center; padding:5px; color:#fff;">
-                                    <span style="color:#990033;font-weight:bold;">Attempted Hours</span> 13 &nbsp; - &nbsp; 
-                                    <span style="color:#990033;font-weight:bold;">Earned Hours</span> 13 &nbsp; - &nbsp; 
-                                    <span style="color:#990033;font-weight:bold;">GPA</span> 2.66
-                                </td>
-                            </tr>
-
-                            <!-- ================= FALL 2025-2026 (كما هي قديما) ================= -->
-                            <tr>
-                                <td colspan="13" style="background-color:#CCCCCC; font-weight:bold; text-align:left; padding:8px;">Fall-2025-2026</td>
-                            </tr>
-                            <tr>
-                                <td>11.</td><td>MBG102D</td><td>Microbiology</td><td>3</td>
-                                <td>13</td><td>10</td><td>7</td><td>25</td><td>5</td><td style="background-color:#848484;"></td>
-                                <td>60</td><td>2</td><td style="font-weight:bold;">D</td>
-                            </tr>
-                            <tr>
-                                <td>12.</td><td>PHS102DN</td><td>Physiology 2 - D</td><td>2</td>
-                                <td>19</td><td>20.5</td><td style="background-color:#848484;"></td><td style="background-color:#848484;"></td><td>20.5</td><td style="background-color:#848484;"></td>
-                                <td>60</td><td>2</td><td style="font-weight:bold;">D</td>
-                            </tr>
-                            <tr>
-                                <td colspan="13" style="background-color:#999999; text-align:center; padding:5px; color:#fff;">
-                                    <span style="color:#990033;font-weight:bold;">Attempted Hours</span> 12 &nbsp; - &nbsp; 
-                                    <span style="color:#990033;font-weight:bold;">Earned Hours</span> 5 &nbsp; - &nbsp; 
-                                    <span style="color:#990033;font-weight:bold;">GPA</span> 0.83
-                                </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
+				<div id="main">
+				    <section id="one">
+				        <div style="margin-top: -110px;">
+				        <div style="float: left; margin-right: 15px; margin-left:13px;">
+								        <img src="https://portal.nub.edu.eg/Theames_Stu/images/logo2.png" width="117" height="107">
+							    </div>
+                        <div style="float: left; text-align: center; width: 75%;">
+                            <h3> NUB Portal </h3>                                
+                            <p style="font-size: 20pt; margin-top: 26px;"> Student Grades </p>
+                        </div>
+                            </div>
+                        </section>
+                    <div style="clear: both;"></div>
+                    <div style="margin: -640px 10px 10px; min-height: 650px;">
+                        
+                            <div class="panel-body" dir="ltr">
                     
-                    <br><br>
+
+        <div id="cpl_body_upnl_page">
+		     
+    <div style="text-align: center;background-color: white">
+        
+    <div class="mws-panel grid_8">
+
+        <div class="mws-panel-body no-padding">
+            <div class="mws-form">
+                <div class="mws-form-inline">
+                    <div class="middleclass">
+                        <div id="pagee">
+
+                        <div class="divgrid" dir="ltr">
+
+
+                                    <div style="min-height: 800px;" dir="ltr">
+                                            
+                                        
+                                        <div style="width: 100%;text-align: center;border: 1px solid black; visibility:visible">
+                                            <table id="cpl_body_Datalist1" cellspacing="0" style="width:100%;border-collapse:collapse;">
+			<tbody><tr>
+				<td>
+                                                    <table style="width: 100%; margin-bottom: 0px;" dir="ltr"><tbody><tr>
+                                                                           <td>
+                                                                               <span id="cpl_body_Datalist1_Label15_0" style="color:#666666;font-size:14px;">GPA</span>:
+                                                                                     
+                                                                               <span id="cpl_body_Datalist1_Label16_0" style="font-size:14px; font-weight:bold; color:#092744;">3.05</span>
+                                                                           </td>
+                                                
+                                                 <td>
+                                                                               <span id="cpl_body_Datalist1_Label17_0" style="color:#666666;font-size:14px;">Student Name</span>:
+                                                                               <span id="cpl_body_Datalist1_Label18_0" style="font-size:14px;">Abdalla Gomaa Mohamed Moursi Badawi</span>
+                                                                           </td>
+                                                
+                                                 <td>
+                                                                               <span id="cpl_body_Datalist1_Label19_0" style="color:#666666;font-size:14px;">Attempted Hours</span>:
+                                                                               <span id="cpl_body_Datalist1_Label20_0" style="font-size:14px;">82</span>
+                                                                           </td>
+                                                                       </tr>
+                                                
+                                                <tr>
+                                                                           <td>
+                                                                               <span id="cpl_body_Datalist1_Label21_0" style="color:#666666;font-size:14px;">Earned Hours</span>:
+                                                                               <span id="cpl_body_Datalist1_Label22_0" style="font-size:14px;">78</span>
+                                                                           </td>
+                                                
+                                                 <td>
+                                                                               <span id="cpl_body_Datalist1_Label23_0" style="color:#666666;font-size:14px;">Total Actual Hours</span>:
+                                                                               <span id="cpl_body_Datalist1_Label24_0" style="font-size:14px;">46</span>
+                                                                           </td>
+                                                
+                                                 <td>
+                                                                               <span id="cpl_body_Datalist1_Label25_0" style="color:#666666;font-size:14px;">Total Points</span>:
+                                                                               <span id="cpl_body_Datalist1_Label26_0" style="font-size:14px;">237.9</span>
+                                                                           </td>
+                                                                       </tr>
+                                                
+
+                                            </tbody></table>
+                                                </td>
+			</tr>
+		</tbody></table>
+                                            </div>
+                                            
+                                          
+                                            <div>
+			<table class="grid" cellspacing="0" align="Center" rules="all" itemstyle-horizontalalign="Center" border="1" id="cpl_body_grdRawData" style="background-color:White;width:100%;border-collapse:collapse;">
+				<tbody>
+                <tr style="display:none;">
+					<td colspan="13"><div id="cpl_body_grdRawData_GroupHeader_Summer-2025-2026">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Summer-2025-2026</td></tr>
+                       
+                    </tbody></table>
                 </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Summer-2025-2026">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl52_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    7
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl52_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    7
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl52_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    2.59
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Spring-2025-2026">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Spring-2025-2026</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Spring-2025-2026">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl56_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    13
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl56_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    13
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl56_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    2.66
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Fall-2025-2026">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Fall-2025-2026</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Fall-2025-2026">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl60_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    12
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl60_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    5
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl60_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    0.83
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Summer-2024-2025">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Summer-2024-2025</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Summer-2024-2025">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl64_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    7
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl64_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    1
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl64_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    0.29
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Spring-2024-2025">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Spring-2024-2025</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Spring-2024-2025">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl68_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    13
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl68_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    1
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl68_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    0
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Fall-2024-2025">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Fall-2024-2025</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Fall-2024-2025">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl72_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    12
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl72_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    8
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl72_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    1.58
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Summer-2023-2024">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Summer-2023-2024</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Summer-2023-2024">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl76_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    7
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl76_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    3
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl76_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    0.99
+          
+                 
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupHeader_Fall-2023-2024">
+						<span>
+                <div class="headgroupstyle">
+                    <table style="width:100%;text-align: center; background-color:#CCCCCC;border: 0px solid white;" class="headgroupstyle">
+                        <tbody><tr>
+                            <td style="width:100%; font-weight:bold; text-align: Left" class="headgroupstyle">Fall-2023-2024</td></tr>
+                       
+                    </tbody></table>
+                </div>
+            </span>
+					</div><div id="cpl_body_grdRawData_GroupFooter_Fall-2023-2024">
+						<span>
+                <div style="background-color:#999999; text-align:center; padding:5px;">
+                     
+                <span id="cpl_body_grdRawData_ctl80_Label31" style="color:#990033;font-weight:bold;">Attempted Hours</span>
+                    18
+                  &nbsp;  -&nbsp;
+                      <span id="cpl_body_grdRawData_ctl80_Label29" style="color:#990033;font-weight:bold;">Earned Hours</span>
+                    9
+                   &nbsp; -&nbsp;
+                     <span id="cpl_body_grdRawData_ctl80_Label28" style="color:#990033;font-weight:bold;">GPA</span>
+                    1.17
+          
+                 
+                </div>
+            </span>
+					</div></td>
+				</tr>
+                
+                <tr align="center" valign="middle" style="color:White;background-color:#5B598B;font-weight:bold;height:43px;">
+					<th align="center" scope="col">S.No</th><th align="right" scope="col">Subject Code</th><th align="center" scope="col">Subject Name</th><th align="right" scope="col">Credit Hours</th><th align="right" scope="col">Final</th><th align="right" scope="col">Class Participation</th><th align="right" scope="col">Oral</th><th align="right" scope="col">Lab</th><th align="right" scope="col">MidTerm</th><th align="right" scope="col">Clinical</th><th align="right" scope="col">Total</th><th align="right" scope="col">Points</th><th align="right" scope="col">Grade</th>
+				</tr><tr group="Summer-2025-2026" style="background-color: white; display: table-row;">
+					<td align="center">
+                        1.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_0">HMD201</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_0">Human Dentition 2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_0">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_0">25</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_0">15</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_0">6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_0">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_0">10</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_0"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_0">76</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_0">8.1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_0" style="color:green; font-weight:bold;">B-</span>
+                    </td>
+				</tr><tr group="Summer-2025-2026" style="background-color: rgb(232, 232, 255); display: table-row;">
+					<td align="center">
+                        2.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_1">ANT102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_1">Anatomy - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_1">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_1">26</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_1">10</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_1">5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_1">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_1">12</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_1"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_1">73</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_1">4.6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_1" style="color:green; font-weight:bold;">C+</span>
+                    </td>
+				</tr><tr group="Summer-2025-2026" style="background-color: white; display: table-row;">
+					<td align="center">
+                        3.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_2">CHO102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_2">Organic Chemistry - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_2">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_2">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_2">12.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_2">7.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_2">25</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_2">11</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_2"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_2">76</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_2">5.4</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_2" style="color:green; font-weight:bold;">B-</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: rgb(232, 232, 255); display: table-row;">
+					<td align="center">
+                        4.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_3">CS-121-P2</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_3">Aptech Computer Skills Level One – Part 2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_3">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_3">47</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_3"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_3"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_3">47</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_3"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_3"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_3">94</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_3">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_3" style="font-weight:bold;">P</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: white; display: table-row;">
+					<td align="center">
+                        5.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_4">ENG112A</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_4">ENG 112 A</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_4">1</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labelfinal_4"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_4"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_4"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_4"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_4"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_4"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labeltotal_4"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_4"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_4" style="font-weight:bold;">P</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: rgb(232, 232, 255); display: table-row;">
+					<td align="center">
+                        6.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_5">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_5">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_5">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_5">29</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_5">13</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_5">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_5">18</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_5">11</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_5"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_5">79</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_5">9.0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_5" style="color:green; font-weight:bold;">B</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: white; display: table-row;">
+					<td align="center">
+                        7.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_6">ANT102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_6">Anatomy - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_6">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_6">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_6">11</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_6">7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_6">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_6">10</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_6"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_6">68</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_6">3.4</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_6" style="color:green; font-weight:bold;">C-</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: rgb(232, 232, 255); display: table-row;">
+					<td align="center">
+                        8.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_7">COM301D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_7">Community Medicine</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_7">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_7">35</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_7">23</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_7"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_7"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_7">24</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_7"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_7">82</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_7">6.6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_7" style="color:green; font-weight:bold;">B+</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: white; display: table-row;">
+					<td align="center">
+                        9.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_8">PTH201D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_8">Pathology 1 - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_8">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_8">29</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_8">14</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_8">9</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_8">18</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_8">10</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_8"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_8">80</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_8">9.0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_8" style="color:green; font-weight:bold;">B</span>
+                    </td>
+				</tr><tr group="Spring-2025-2026" style="background-color: rgb(232, 232, 255); display: table-row;">
+					<td align="center">
+                        10.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_9">CHO102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_9">Organic Chemistry - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_9">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_9">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_9">12</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_9">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_9">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_9">10</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_9"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_9">70</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_9">4.0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_9" style="color:green; font-weight:bold;">C</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: white; display: none;">
+					<td align="center">
+                        11.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_10">CS-123-P1</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_10">Aptech Computer Skills Level Three – Part 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_10">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_10">42</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_10"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_10"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_10">42</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_10"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_10"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_10">84</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_10">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_10">P</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        12.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_11">MBG102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_11">Microbiology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_11">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_11">13</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_11">10</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_11">7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_11">25</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_11">5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_11"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_11">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_11">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_11">D</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: white; display: none;">
+					<td align="center">
+                        13.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_12">ENG112A-P1</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_12">ENG 112 A</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_12">0</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labelfinal_12"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_12"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_12"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_12"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_12"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_12"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labeltotal_12"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_12"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_12">P</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        14.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_13">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_13">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_13">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_13">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_13">10</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_13">5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_13">19</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_13">4</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_13"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_13">46</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_13">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_13">F</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: white; display: none;">
+					<td align="center">
+                        15.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_14">ANT102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_14">Anatomy - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_14">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_14">11</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_14">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_14">7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_14">6.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_14">6.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_14"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_14">34</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_14">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_14">F</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        16.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_15">CHO102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_15">Organic Chemistry - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_15">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_15">8.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_15">11</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_15">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_15">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_15">5.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_15"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_15">48</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_15">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_15">F</span>
+                    </td>
+				</tr><tr group="Fall-2025-2026" style="background-color: white; display: none;">
+					<td align="center">
+                        17.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_16">PHS102DN</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_16">Physiology 2 - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_16">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_16">19</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_16">20.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_16"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_16"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_16">20.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_16"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_16">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_16">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_16">D</span>
+                    </td>
+				</tr><tr group="Summer-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        18.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_17">MBG102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_17">Microbiology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_17">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_17">9</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_17">7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_17">5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_17">15</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_17">8</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_17"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_17">44</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_17">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_17">F</span>
+                    </td>
+				</tr><tr group="Summer-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        19.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_18">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_18">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_18">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_18">8.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_18">5.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_18">6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_18">24.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_18">1</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_18"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_18">46</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_18">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_18">F</span>
+                    </td>
+				</tr><tr group="Summer-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        20.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_19">DTS101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_19">Dental Termnology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_19">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_19">22</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_19">25</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_19"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_19"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_19">13</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_19"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_19">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_19">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_19">D</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        21.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_20">CS-122-P2</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_20">Aptech Computer Skills Level Two – Part 2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_20">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_20">30</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_20"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_20"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_20">30</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_20"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_20"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_20">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_20">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_20">P</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        22.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_21">MBG102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_21">Microbiology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_21">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_21">11.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_21">10.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_21">4</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_21">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_21">8</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_21"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_21">34</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_21">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_21">F</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        23.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_22">ENG111A</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_22">ENG 111 A</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_22">1</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labelfinal_22"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_22"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_22"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_22"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_22"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_22"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labeltotal_22"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_22"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_22">P</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        24.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_23">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_23">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_23">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_23">6.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_23">10</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_23">6.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_23">16</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_23">6</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_23"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_23">45</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_23">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_23">F</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        25.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_24">ANT102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_24">Anatomy - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_24">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_24">6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_24">11</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_24">4.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_24">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_24">5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_24"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_24">35</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_24">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_24">F</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        26.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_25">CHO102D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_25">Organic Chemistry - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_25">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_25">9</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_25">10.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_25">4</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_25">24</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_25">3</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_25"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_25">51</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_25">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_25">F</span>
+                    </td>
+				</tr><tr group="Spring-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        27.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_26">PHS102DN</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_26">Physiology 2 - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_26">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_26">17</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_26">18</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_26"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_26"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_26">8</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_26"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_26">43</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_26">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_26">F</span>
+                    </td>
+				</tr><tr group="Fall-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        28.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_27">CS-122-P1</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_27">Aptech Computer Skills Level Two – Part 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_27">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_27">30</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_27"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_27"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_27">30</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_27"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_27"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_27">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_27">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_27">P</span>
+                    </td>
+				</tr><tr group="Fall-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        29.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_28">REM101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_28">Scientific Thinking</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_28">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_28">27</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_28">22</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_28"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_28"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_28">11</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_28"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_28">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_28">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_28">D</span>
+                    </td>
+				</tr><tr group="Fall-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        30.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_29">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_29">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_29">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_29">7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_29">11.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_29">6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_29">19</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_29">2.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_29"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_29">46</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_29">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_29">F</span>
+                    </td>
+				</tr><tr group="Fall-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        31.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_30">CHG101D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_30">General &amp; Physical Chemistry - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_30">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_30">17</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_30">10</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_30">4</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_30">20</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_30">10</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_30"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_30">61</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_30">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_30">D</span>
+                    </td>
+				</tr><tr group="Fall-2024-2025" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        32.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_31">MGT101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_31">Principles of Management</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_31">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_31">36</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_31">22</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_31"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_31"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_31">17</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_31"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_31">75</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_31">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_31">B</span>
+                    </td>
+				</tr><tr group="Fall-2024-2025" style="background-color: white; display: none;">
+					<td align="center">
+                        33.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_32">DTS101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_32">Dental Termnology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_32">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_32">16</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_32">21</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_32"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_32"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_32">8</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_32"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_32">45</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_32">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_32">F</span>
+                    </td>
+				</tr><tr group="Summer-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        34.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_33">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_33">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_33">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_33">3.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_33">6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_33">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_33">17</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_33">0</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_33"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_33">27</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_33">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_33">F</span>
+                    </td>
+				</tr><tr group="Summer-2023-2024" style="background-color: white; display: none;">
+					<td align="center">
+                        35.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_34">DTS101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_34">Dental Termnology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_34">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_34">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_34">7</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_34"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_34"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_34">9</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_34"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_34">24</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_34">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_34">F</span>
+                    </td>
+				</tr><tr group="Summer-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        36.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_35">PHS101DN</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_35">Physiology 1 - DN</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_35">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_35">18</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_35">12.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_35">6</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_35">23</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_35">6.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_35"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_35">66</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_35">2.3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_35">C-</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: white; display: none;">
+					<td align="center">
+                        37.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_36">CS-121-P1</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_36">Aptech Computer Skills Level One – Part 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_36">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_36">30</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_36"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_36"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_36">30</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_36"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_36"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_36">60</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_36">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_36">P</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        38.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_37">ETS401</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_37">Professional Ethics</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_37">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_37">26</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_37">21</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_37"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_37"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_37">17</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_37"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_37">64</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_37">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_37">D</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: white; display: none;">
+					<td align="center">
+                        39.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_38">PHY101D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_38">Physics</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_38">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_38">11</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_38">11.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_38">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_38">21.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_38">12</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_38"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_38">64</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_38">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_38">D</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        40.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_39">ENG111A-P1</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_39">ENG 111 A</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_39">0</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labelfinal_39"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_39"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_39"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_39"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelMidTerm_39"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_39"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_Labeltotal_39"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_39"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_39">P</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: white; display: none;">
+					<td align="center">
+                        41.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_40">HMD101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_40">Human Dentition 1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_40">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_40">7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_40">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_40">5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_40">16.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_40">2.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_40"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_40">39</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_40">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_40">F</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        42.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_41">HUM101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_41">Humanities</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_41">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_41">31</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_41">24</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_41"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_41"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_41">17</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_41"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_41">72</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_41">2.7</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_41">C+</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: white; display: none;">
+					<td align="center">
+                        43.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_42">HST101D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_42">Histology 1 - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_42">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_42">9.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_42">15</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_42">4</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_42">29.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_42">8</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_42"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_42">66</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_42">2.3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_42">C-</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        44.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_43">CHG101D</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_43">General &amp; Physical Chemistry - D</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_43">2</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_43">16.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_43">8</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_43">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_43">18</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_43">7.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_43"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_43">51</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_43">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_43">F</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: white; display: none;">
+					<td align="center">
+                        45.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_44">DTS101</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_44">Dental Termnology</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_44">1</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_44">9</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_44">23</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelOral_44"></span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelLab_44"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_44">21</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_44"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_44">53</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_44">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_44">F</span>
+                    </td>
+				</tr><tr group="Fall-2023-2024" style="background-color: rgb(232, 232, 255); display: none;">
+					<td align="center">
+                        46.
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelSubjectCode_45">PHS101DN</span>
+                    </td><td align="center">
+                        <span id="cpl_body_grdRawData_Labelsubname_45">Physiology 1 - DN</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelCreditHours_45">3</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labelfinal_45">9.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelClassParticipation_45">9.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelOral_45">6.5</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelLab_45">14</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelMidTerm_45">7.5</span>
+                    </td><td style="background-color:#848484;">
+                        <span id="cpl_body_grdRawData_LabelClinical_45"></span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_Labeltotal_45">47</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelPoints_45">0</span>
+                    </td><td>
+                        <span id="cpl_body_grdRawData_LabelGradeNameEn_45">F</span>
+                    </td>
+				</tr>
+			</tbody></table>
+		</div>
+ 
+   
+                                        <br>
+                                            
+                             <script type="text/javascript">
+                                 function CollapseAllData(id) {
+                                     $('#' + id + ' tr[group]').fadeOut('fast');
+                                     $('#' + id + ' tr[id^=GroupHeader]').attr('expanded', 'false');
+                                 }
+
+                                 function ExpandAllData(id) {
+                                     $('#' + id + ' tr[group]').fadeIn('fast');
+                                     $('#' + id + ' tr[id^=GroupHeader]').attr('expanded', 'true');
+                                 }
+
+                                 function CollapseHeaders(id) {
+                                     $('#' + id + ' tr[id^=GroupHeader]').fadeOut('fast');
+                                 }
+
+                                 function ExpandHeaders(id) {
+                                     $('#' + id + ' tr[id^=GroupHeader]').fadeIn('fast');
+                                 }
+
+                                 function CollapseFooters(id) {
+                                     $('#' + id + ' tr[id^=GroupFooter]').fadeOut('fast');
+                                 }
+
+                                 function ExpandFooters(id) {
+                                     $('#' + id + ' tr[id^=GroupFooter]').fadeIn('fast');
+                                 }
+    </script>           
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+
+
+
+
+                                           
+  
+                                        
+                                        
+                                         
+                                       <script src="https://portal.nub.edu.eg/Themes/js/jquery-1.7.1.js"></script>
+                              <script src="https://portal.nub.edu.eg/Themes/js/jquery.min.js"></script>
+                                 <script src="https://portal.nub.edu.eg/Themes/jqueryconfirm/jquery.confirm/jquery.confirm.js"></script>
+    <script src="https://portal.nub.edu.eg/Themes/js/jquery.effects.core.js"></script>
+    <script src="https://portal.nub.edu.eg/Themes/js/jquery.effects.slide.js"></script>
+                                        
+                                    </div>
+                                        
+                             
+                                    </div>
+                                                                    
+                               
+
+                        </div>
+                        <span id="cpl_body_columncount"></span>
+          
+          
+          
+                        
+                         <div data-val-showmessagebox="True" data-val-showsummary="False" data-val-validationgroup="Valid" id="cpl_body_ValidationSummary1" data-valsummary="true" style="display:none;">
+
+		</div>
+                        
+
+                           <div data-val-showmessagebox="True" data-val-showsummary="False" data-val-validationgroup="ValidValid" id="cpl_body_ValidationSummary2" data-valsummary="true" style="display:none;">
+
+		</div>                                                       
+
+                        </div>
+                                    
+                    </div>
+                </div>
+
             </div>
-            
-            <section id="footer">
-                <div class="container" style="text-align:center; padding-bottom:30px; font-size:12px; color:#666;">
-                    <ul class="copyright" style="list-style:none; padding:0;">
-                        <li>© NUB PORTAL. All rights reserved.</li>
-                        <li>IT Department NUB.edu.eg</li>
-                    </ul>
-                </div>
-            </section>
         </div>
     </div>
-</body>
-</html>
+                            
+	</div>
+    <div id="cpl_body_updProgress" style="display:none;" role="status" aria-hidden="true">
+		
+            <div class="searchProgIndicator">
+                <div class="mask">
+                </div>
+                <div class="searchProgContents">
+                    <img border="0" src="https://portal.nub.edu.eg/Themes/Images/ajax-loader.gif" alt="">
+                    <br>
+                    <h1>
+                        <span>Loading</span>
+                    </h1>
+                    <div id="processingFilters" class="processingFilters">
+                        <span>Processing filters.</span>
+                    </div>
+                </div>
+            </div>
+        
+	</div>
+
+                                <script src="https://portal.nub.edu.eg/Themes/jqueryconfirm/jquery.confirm/jquery.confirm.js"></script>
+                                    <div class="panel-body">
+
+                        </div>
+				</div>
+
+			<!-- Footer -->
+            <div style="clear: both;"></div>
+				<section id="footer">
+					<div class="container">
+						<ul class="copyright">
+							<li>© NUB PORTAL. All rights reserved.</li><li>IT Department <a href="javascript:void(0);">NUB.edu.eg</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</div>
+                    </div>
+            </div>
+                            
+</div>
+    <div id="updProgress" style="display:none;" role="status" aria-hidden="true">
+	
+            <div class="searchProgIndicator">
+                <div class="mask">
+                </div>
+                <div class="searchProgContents">
+                    <img border="0" src="https://portal.nub.edu.eg/Themes/Images/ajax-loader.gif" alt="">
+                    <br>
+                    <h1>
+                        <span>Loading</span>
+                    </h1>
+                    <div id="processingFilters" class="processingFilters">
+                        <span>Processing filters.</span>
+                    </div>
+                </div>
+            </div>
+        
+</div>
+    
+
+</form>
+  
+                 <script>
+        let html5QrCode;
+    function openScanner(locationData ) {
+            const modal = document.getElementById("scannerModal");
+            modal.classList.add("active");
+          
+            startScanner(locationData);
+        }
+
+        function closeScanner() {
+            const modal = document.getElementById("scannerModal");
+            modal.classList.remove("active");
+            stopScanner();
+        }
+       
+
+                 function startScanner(locationData) {
+         
+        const html5QrCode = new Html5Qrcode("reader");
+        const config = { fps:5, qrbox: { width: 500, height: 300 } };
+
+        // Start the QR scanner
+        Html5Qrcode.getCameras().then((devices) => {
+            if (devices && devices.length) {
+               // let cameraId = devices[0].id; // Use the first camera available
+                html5QrCode.start(
+                    { facingMode: "environment" }, // Use the back camera
+                    config,
+                    (decodedText, decodedResult) => {
+                        // Handle the decoded text (QR Code value)
+                    const combinedData = decodedText;
+                         //handleQRCodeData(combinedData);
+
+              try {
+                 const targetUrl = `https://portal.nub.edu.eg/STU/QRResult.aspx?scannedData=${encodeURIComponent(combinedData)}`;
+                 window.top.location.href = targetUrl; // Redirect to the URL
+                } catch {
+                }
+                      
+                        html5QrCode.stop(); // Stop scanner after success
+                    },
+                    (errorMessage) => {
+                    }
+                ).then(() => {
+                document.getElementById("startButton").style.display = "none";
+               
+           }).catch(err => {
+                console.error("Unable to start QR scanner", err);
+            });
+            }
+        }).catch((err) => {
+            console.error("Camera error:", err);
+            alert("Camera not found or permission denied.");
+        });
+    }
+
+
+        function stopScanner() {
+            if (html5QrCode) {
+                html5QrCode.stop().then(() => {
+                    document.getElementById("startButton").style.display = "inline-block";
+                    //document.getElementById("stopButton").style.display = "none";
+                    console.log("QR Scanner stopped.");
+                }).catch(err => {
+                });
+            }
+        }
+
+        function handleQRCodeData(data) {
+            try {
+             const targetUrl = `https://portal.nub.edu.eg/STU/QRResult.aspx?scannedData=${encodeURIComponent(data)}`;
+             window.top.location.href = targetUrl; 
+            } catch {
+            }
+        }
+
+  
+      
+
+
+    function openModal() {
+        const modal = document.getElementById("locationModal");
+        modal.classList.add("active");
+
+    
+    }
+
+    function closeModal() {
+        const modal = document.getElementById("locationModal");
+        modal.classList.remove("active");
+    }
+
+    function handleAllow() {
+        closeModal();
+     
+        getLocation();
+    }
+ function handleCancel() {
+        closeModal();
+     
+      
+    }
+
+   function getLocation() {
+    console.log("Attempting to get location...");
+    const loadingMessage = document.getElementById('loadingMessage');
+    if (loadingMessage) loadingMessage.style.display = 'block'; // Show loading message
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            function (position) {
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+                console.log("Location fetched:", latitude, longitude);
+                var loc="latitude="+latitude+"longitude="+longitude;
+                // Update labels
+
+               openScanner(loc);
+              
+                //  sendLogData(latitude, longitude);
+                if (loadingMessage) loadingMessage.style.display = 'none'; // Hide loading message
+            },
+            function (error) {
+                //console.error("Error fetching location:", error.message);
+                //alert("Unable to fetch location: " + error.message);
+
+                console.warn("Could not fetch location, continuing without it.");
+                const latitude = null;
+                const longitude = null;
+                var loc = "latitude=" + latitude + "longitude=" + longitude;
+                openScanner(loc); // Continue execution without stopping
+                if (loadingMessage) loadingMessage.style.display = 'none'; 
+                if (loadingMessage) loadingMessage.style.display = 'none'; // Hide loading message
+            },
+            { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+        );
+    } else {
+       // alert("Geolocation is not supported by this browser.");
+        console.warn("Could not fetch location, continuing without it.");
+                const latitude = null;
+                const longitude = null;
+                var loc = "latitude=" + latitude + "longitude=" + longitude;
+                openScanner(loc); // Continue execution without stopping
+                if (loadingMessage) loadingMessage.style.display = 'none'; 
+        if (loadingMessage) loadingMessage.style.display = 'none'; // Hide loading message
+    }
+}
+    </script>
+
+    <script src="https://portal.nub.edu.eg/Themes/jqueryconfirm/jquery.confirm/jquery.confirm.js"></script>
+
+
+</div><div id="skel-layers-hiddenWrapper" style="height: 100%;"><div id="sidePanel" class="skel-layer" style="backface-visibility: hidden; transition: transform 0.5s, opacity 0.5s; z-index: 10000; position: fixed; -webkit-overflow-scrolling: touch; display: none; overflow: hidden auto;"><div data-action="moveElement" data-args="header"><section id="header" class="skel-layers-fixed skel-layers-moved" style="">
+					<header><a href="dashboard.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+						<span class="image avatar">
+                            <img id="img_stdPic" src="https://portal.nub.edu.eg/Pictures/Students/231020015.jpg">
+						</span>
+						<h1 id="logo">
+                            Abdalla Gomaa Mohamed Moursi Badawi
+						             </h1> </a>
+						<p>Faculty of Oral and Dental Medicine<br>
+						  Oral and Dental Medicine (Modified)  <br>  Freshman |  231020015  </p>
+					</header>
+					<nav id="nav">
+                        <ul class="icons">
+						<li>
+								         <a href="https://itunes.apple.com/app/nub-nahda-university/id1067877436" target="_blank" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                             <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/ios.png" title="NUB Mobile - IOS" alt="">  
+                                             </a>
+								    &nbsp;</li>
+						<li>
+								         <a href="https://play.google.com/store/apps/details?id=eg.edu.nub.nub_nahda_university" target="_blank" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                             <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/android.png" title="NUB Mobile - Android" alt="">  
+                                             </a>
+								    &nbsp;</li>
+						<li>
+								         <a href="https://www.yammer.com/nub.edu.eg/?show_login=true" target="_blank" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                             <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/yammer2.png" title="NUB Yammer" alt="">  
+                                             </a>
+								    &nbsp;</li>
+								    <li>
+								         <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                             <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/1.png" title="Admission Application" alt="">  
+                                             </a>
+								    &nbsp;</li>
+                                    
+                                    <li>
+                                        <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> 
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/3.png" title="Study Time Table" alt="">  
+                                            </a>
+								    &nbsp;</li>
+
+								    <li>
+								        <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/2.png" title="Academic Registration" alt="">   
+                                            </a>
+								    &nbsp;</li>
+
+                               <li>
+								        <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/2.png" title="Summer Resevation" alt="">   
+                                            </a>
+								    &nbsp;</li>
+
+
+								    
+								    <li>
+								        <a href="grades.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/4.png" title="Student Grades" alt="">   
+                                            </a>
+								    &nbsp;</li>
+                                    
+                                    
+                            <li>
+                               
+                                        <a href="https://lms.nub.edu.eg/" target="_blank" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/9.png" title="LMS" alt="">   
+                                            </a>
+								    &nbsp;</li>
+
+								    <li>
+								        <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/7.png" title="Fee's Application" alt="">   </a>
+								    &nbsp;</li>
+								    <li>
+								        <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/5.png" title="Attendance Report" alt="">  
+                                            </a>
+								    &nbsp;</li>
+								    <li>
+								         <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/6.png" title="Absent Report" alt="">  
+                                             </a>
+								    &nbsp;</li>
+
+                             <li>
+								       <a href="https://www.nub.edu.eg/apps/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                            <img src="https://portal.nub.edu.eg/Theames_Stu/images/QR.png" title="QRscanne" alt="QR">
+                                        </a>
+
+                                
+								    &nbsp;</li>
+                            <li>
+								         <a href="https://portal.office.com" target="_blank" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/10.png" title="Absent Report" alt="">  
+                                             </a>
+								    &nbsp;</li>
+								    <li>
+								         <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/11.png" title="Ensure Your Login data" alt="">  
+                                             </a>
+								    &nbsp;</li>
+									<!--
+                            <li >
+								         <a href="https://app.nub.edu.eg/elections/" target="_blank">
+								         <img src="../Theames_Stu/images/icons/Elec.png"  title="NUB Election" alt=""/>  
+                                             </a>
+								    </li>
+									-->
+                            <li>
+								         <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/logfile.png" title="Logfile" alt="">  
+                                             </a>
+								    &nbsp;</li>
+                             <li>
+								         <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/logfile.png" title="Reservation" alt="">  
+                                             </a>
+								    &nbsp;</li>
+                            <li>
+								         <a href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+								         <img src="https://portal.nub.edu.eg/Theames_Stu/images/icons/logtime.png" title="Timetable Logfile" alt="">  
+                                             </a>
+								    &nbsp;</li>
+								</ul>
+                        
+
+					</nav>
+					<footer>			
+									<ul class="icons">
+							<li>
+                                 <a id="btn_exit" href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><input type="image" name="ctl00$ImageButton1" id="ImageButton1" title="logout" src="https://portal.nub.edu.eg/Theames_Stu/images/out.png" style="width:30px;"></a>
+							</li>
+							<li>
+							    <a id="btn_pass" href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><input type="image" name="ctl00$ImageButton2" id="ImageButton2" title="Change Password" src="https://portal.nub.edu.eg/Theames_Stu/images/key.png" style="width:30px;"></a>
+							    
+							</li>
+							<li>
+							    <a id="btn_lang" href="javascript:void(0);" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><input type="image" name="ctl00$imgbtn_lang" id="imgbtn_lang" title="Change Language" src="https://portal.nub.edu.eg/Theames_Stu/images/book_previous.png" style="width:30px;"></a>
+							                                              
+							</li>
+						</ul>     
+                                           
+					</footer>
+
+				</section></div></div></div><div id="skel-layers-visibleWrapper" style="position: relative;"><div id="skel-layers-placeholder-header"></div><div id="titleBar" class="skel-layer skel-layer-top-left" style="backface-visibility: hidden; transition: transform 0.5s, opacity 0.5s; z-index: 10002; position: fixed; -webkit-overflow-scrolling: touch; display: block; width: 100%; height: 44px; top: 0px; left: 0px;"><span class="toggle" data-action="toggleLayer" data-args="sidePanel" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></span><span class="title" data-action="copyText" data-args="logo">
+                            Abdalla Gomaa Mohamed Moursi Badawi
+						             </span></div></div></body></html>
